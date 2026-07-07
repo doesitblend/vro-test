@@ -1,0 +1,31 @@
+id: "1ea82fa8-dda7-45a0-9ce3-33c03d39dae6"
+name: "ascender"
+version: "0.0.0"
+status: 0
+attributes:
+  - name: "URL"
+    type: "Properties"
+    value:
+      properties:
+        property:
+          - key: "P"
+            value:
+              string:
+                value: "https://p-environment.example.com"
+          - key: "A"
+            value:
+              string:
+                value: "https://a-environment.example.com"
+  - name: "Token"
+    type: "Properties"
+    value:
+      properties:
+        property:
+          - key: "P"
+            value:
+              secureString:
+                value: "enc:<PASTE_YOUR_ENCRYPTED_STRING_HERE>"
+          - key: "A"
+            value:
+              secureString:
+                value: "enc:<PASTE_YOUR_ENCRYPTED_STRING_HERE>"
